@@ -1,12 +1,33 @@
 # HackerYou-Project-Ideas
-You might have guessed it! My first repository will serve as a basic text file to brainstorm project ideas for my Web Development Course beginning June 17, 2018. Felt it necessary to start learning Git as a necessary tool for learning and version control.
-My knowledge of programming is very limited so my project ideas will be very basic funtional webpages to start.
 
-Idea 1
-  Travel Blog - Photography enthusiast, so I have a lot of travel photos and video I can incorporate into a webpage with commentary, recommendations, highlights and links.
+1) 'Break Timer' that has preset options for optimizing productivity.
+  * Assign set amounts of time for work, break, lunch
+  * When options are selected, change images on the page and background colors
+  * The setInterval counts down
   
-Idea 2
-  Online Record Store - sample my vinyl collection for images, include sample music, add to cart functionality and a simple check out form.
+ 2) Hangman Game
+    * Establishes an array of random words
+    * Math.floor(Math.random().length) to choose a random word from the array
+    * random word is displayed as "_" up to the number of space of the random word
+    * create an empty array to store user input
+    * return user input if the letter is === to a letter in the word
+    * display user input and remaining letters
+    *
+    
+ 3) Treasure Hunt
+  * Displays a treasure map image
+  * user clicks the area of the treasure map
+  * messages are displayed to let the user know whether or not they are close to the coordinates
+  * randomizes the coordinates using Math.floor(Math.random()) 
+  * calculates the distance from the target by calculatig the hypotenuse
+  * counts the # of clicks 
   
-Idea 3  
-  Build a corporate website for my employer - current corporate website has not been updated for years and could use a fresh look. There is lots of content and links in the page but as a project for a portfolio it could be rather useful.
+  
+  4) Flip Card Match Game
+   * Create playing cards using CSS & JS to display a card face on a number of DIV elements and an image on the back of the card
+   * on click events the cards will animate to flip
+   * When the images match, the cards will remain
+   * user must match all images within limited number of clicks
+   
+   5) Make a Quiz
+   
